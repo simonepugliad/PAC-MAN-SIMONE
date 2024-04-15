@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         comerpoder();
         comerpunto();
-        //gameover();
+        gameover();
         win();
         win2();
         win3();
@@ -300,7 +300,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     function win() {
-        if (score == 1 && level == 1) {
+        if (score == 369 && level == 1) {
             fantasmitos.forEach(f => clearInterval(f.timerId))
             //document.removeEventListener('keyup', movePacman)
             setTimeout(function () {
@@ -331,7 +331,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function win2() {
-        if (score == 2 && level == 2) {
+        if (score == 684 && level == 2) {
             fantasmitos.forEach(f => clearInterval(f.timerId))
             //document.removeEventListener('keyup', movePacman)
             setTimeout(function () {
@@ -361,7 +361,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
     function win3(){
-        if (score == 10 && level == 3){
+        if (score == 854 && level == 3){
         fantasmitos.forEach(f => clearInterval(f.timerId))
         document.removeEventListener('keyup', movePacman)
         setTimeout(function () {
